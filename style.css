@@ -385,3 +385,53 @@ body {
     object-fit: cover;
     display: block;
 }
+/* FOOTER */
+
+.site-footer {
+    background-color: black;
+    color: white;
+    padding: 35px 0;
+}
+
+.footer-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.footer-brand h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-brand p {
+    font-size: 12px;
+    max-width: 300px;
+}
+
+.footer-contact h4,
+.footer-social h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-contact p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
